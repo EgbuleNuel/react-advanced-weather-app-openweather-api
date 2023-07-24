@@ -7,7 +7,7 @@ import {
   UilWind,
   UilSun,
   UilSunset,
-} from "@conscout/react-unicons";
+} from "@iconscout/react-unicons";
 
 function TempteratureAndDetails() {
   return (
@@ -44,27 +44,26 @@ function TempteratureAndDetails() {
       <div className="flex flex-row items-center justify-center space-x-2 text-white text-sm py-3">
         <UilSun />
         <p className="font-light">
-          Rise: <span className="font-medium ml-1">06:45 AM</span>
+          Rise: <span className="font-medium ml-1">06:45</span>
         </p>
         <p className="font-light">|</p>
 
-        <UilSun />
+        <UilSunset />
         <p className="font-light">
-          Rise: <span className="font-medium ml-1">06:45 AM</span>
+          Set: <span className="font-medium ml-1">19:35</span>
         </p>
         <p className="font-light">|</p>
 
-        <UilSun />
+        <UilArrowUp />
         <p className="font-light">
-          Rise: <span className="font-medium ml-1">06:45 AM</span>
+          High: <span className="font-medium ml-1">45°</span>
         </p>
         <p className="font-light">|</p>
 
-        <UilSun />
+        <UilArrowDown />
         <p className="font-light">
-          Rise: <span className="font-medium ml-1">06:45 AM</span>
+          Low: <span className="font-medium ml-1">40°</span>
         </p>
-        <p className="font-light">|</p>
       </div>
     </div>
   );
